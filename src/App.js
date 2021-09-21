@@ -1,6 +1,6 @@
-import React, {useState} from "react";
-import { ThemeProvider } from 'styled-components';
-import { temaClaro, temaEscuro } from './Components/UI/temas'
+import React, { useState } from "react";
+import { ThemeProvider } from "styled-components";
+import { temaClaro, temaEscuro } from "./Components/UI/temas";
 
 import Cabecalho from "./Components/Cabecalho";
 import Container from "./Components/Container";
@@ -19,7 +19,7 @@ function App() {
     <ThemeProvider theme={tema ? temaClaro : temaEscuro}>
       <GlobalStyle />
       <BtnTema onClick={toggleTema}>
-        <SwitcherTema tema={tema}/>
+        <SwitcherTema tema={tema} />
       </BtnTema>
       <Cabecalho />
       <Container />

@@ -6,6 +6,4 @@ export const textoFundoClaro = "grey";
 
 export const fundoEscuro = "#363537";
 export const conteudoEscuro = "#5c5b5e";
-export const textoFundoEscuro = "FAFAFA";
-
-
+export const textoFundoEscuro = "#FAFAFA";
